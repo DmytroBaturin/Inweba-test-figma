@@ -2,3 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #80858a #f0f0f0;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #003366;
+    border-radius: 10px;
+    border: 2px solid #f0f0f0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: #343434;
+    padding: 0;
+}
+
+.regular-text-color {
+   @apply text-[#003366]
+
+}.regular-bg-color {
+     @apply bg-[#003366]
+ }

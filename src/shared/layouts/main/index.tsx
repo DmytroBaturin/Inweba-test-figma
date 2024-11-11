@@ -10,12 +10,12 @@ interface MainLayoutProps {
 export const MainLayout = async ({
   children,
   header,
-  footer
+  footer,
 }: MainLayoutProps) => {
   return (
-    <div className='flex flex-col min-h-screen'>
+    <div className="flex flex-col min-h-screen">
       {header}
-      <div className='flex-grow h-full mt-[96px]'>{children}</div>
+      <div className="h-full">{children}</div>
       {footer}
     </div>
   );

@@ -8,6 +8,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        roboto: ["var(--font-roboto)"],
+        poppins: ["var(--font-poppins)"],
+      },
     },
   },
   plugins: [],

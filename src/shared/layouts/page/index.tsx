@@ -4,7 +4,7 @@ import { cn } from "@/shared/lib/utils";
 
 export const PageLayout = ({
   children,
-  className
+  className,
 }: {
   children: ReactNode;
   className?: string;
@@ -12,11 +12,11 @@ export const PageLayout = ({
   return (
     <div
       className={cn(
-        "flex w-full flex-col h-full justify-center px-[200px] items-center",
-        className
+        "flex w-full flex-col h-full justify-center px-[10%] items-center",
+        className,
       )}
     >
-      <div className='h-full max-w-[1366px] w-full justify-center flex flex-col'>
+      <div className="h-full max-w-[1366px] w-full justify-center flex flex-col">
         {children}
       </div>
     </div>
