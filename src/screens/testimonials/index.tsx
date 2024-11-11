@@ -14,8 +14,8 @@ import { Box } from "@/shared/ui/box";
 import Image from "next/image";
 import { Button } from "@/shared/ui/button";
 
-import star from "@/shared/assets/star.svg";
-import line from "@/shared/assets/line.svg";
+import star from "@/shared/assets/Star.svg";
+import line from "@/shared/assets/Line.svg";
 import { cn } from "@/shared/lib/utils";
 
 const testimonials = [
