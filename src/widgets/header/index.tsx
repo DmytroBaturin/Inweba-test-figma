@@ -3,7 +3,7 @@ import { useState } from "react";
 import { PageLayout } from "@/shared/layouts/page";
 import Image from "next/image";
 
-import logo from "@/shared/assets/logo/logo.svg";
+import logo from "@/shared/assets/logo/Logo.svg";
 import { Button } from "@/shared/ui/button";
 
 import up from "@/shared/assets/lineheader.svg";
