@@ -13,8 +13,8 @@ export const AdvantagesScreen = () => {
         forPage={false}
         className="flex flex-col w-full gap-[20px] lg:h-[520px] py-[50px] h-full"
       >
-        <Box className="bg-white px-[50px] font-medium text-[42px] text-[#003366]  rounded-[16px] h-[125px] flex items-center w-full">
-          <h2 className="uppercase regular-text-color font-poppins">
+        <Box className="bg-white sm:px-[50px] px-[20px] font-medium text-[42px] text-[#003366]  rounded-[16px] h-[125px] flex items-center w-full">
+          <h2 className="uppercase sm:text-[42px] text-[32px] regular-text-color font-poppins">
             advantages
           </h2>
         </Box>
