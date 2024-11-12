@@ -23,7 +23,7 @@ export const OurCoursesScreen = () => {
               key={i}
               className="border-[2px] gap-[40px] flex flex-col  p-[40px] rounded-[20px] border-[#003366] w-full"
             >
-              <div className="flex flex-wrap gap-y-4 justify-between items-center">
+              <div className="flex lg:flex-nowrap flex-wrap gap-y-4 justify-between items-center">
                 <div className="w-full gap-[14px] flex-wrap flex items-center">
                   <div className="bg-[#003366] w-[60px] h-[60px] justify-center flex items-center rounded-[12px]">
                     <Image src={star} alt={"star"} />
