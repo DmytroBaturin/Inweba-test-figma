@@ -60,7 +60,7 @@ export const OurCoursesScreen = () => {
                   </label>
                 ))}
               </div>
-              <div className="flex flex-col gap-[24px]">
+              <article className="flex flex-col gap-[24px]">
                 <h4 className="text-[#003366] uppercase font-medium text-[20px]">
                   {item.models.description}
                 </h4>
@@ -90,7 +90,7 @@ export const OurCoursesScreen = () => {
                 <span className="uppercase font-medium flex text-[30px] text-[#003366]">
                   {item.price.title} | {item.price.text}
                 </span>
-              </div>
+              </article>
               <Button className="w-[209px] py-[14px] px-[30px]">
                 <p className="text-white text-[20px] font-roboto">JOIN</p>
               </Button>
