@@ -11,7 +11,7 @@ export const AboutUsScreen = () => {
     <PageLayout>
       <CenteringLayout forPage={false}>
         <div className="gap-[20px] flex flex-col py-[50px]">
-          <div className="flex justify-between items-center w-full">
+          <div className="flex flex-wrap justify-between items-center w-full">
             <h2 className="text-[42px] regular-text-color uppercase font-poppins font-medium">
               About Us
             </h2>

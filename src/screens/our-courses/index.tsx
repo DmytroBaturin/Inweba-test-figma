@@ -23,7 +23,7 @@ export const OurCoursesScreen = () => {
               key={i}
               className="border-[2px] gap-[40px] flex flex-col  p-[40px] rounded-[20px] border-[#003366] w-full"
             >
-              <div className="flex justify-between items-center">
+              <div className="flex flex-wrap gap-y-4 justify-between items-center">
                 <div className="w-full gap-[14px] flex-wrap flex items-center">
                   <div className="bg-[#003366] w-[60px] h-[60px] justify-center flex items-center rounded-[12px]">
                     <Image src={star} alt={"star"} />
@@ -41,10 +41,10 @@ export const OurCoursesScreen = () => {
                   </span>
                 </div>
               </div>
-              <div className="flex gap-[12px]">
+              <div className="flex flex-wrap gap-[12px]">
                 {item.labels.map((label) => (
                   <label
-                    className="py-[10px] gap-2 flex px-[16px] bg-[#EFF3F7] rounded-[45px]"
+                    className="py-[10px] gap-2  flex px-[16px] bg-[#EFF3F7] rounded-[45px]"
                     key={label.text}
                   >
                     {label.icon && (
