@@ -8,10 +8,10 @@ import up from "@/shared/assets/Lineup.svg";
 
 export const AboutUsScreen = () => {
   return (
-    <PageLayout>
+    <PageLayout tag={"section"}>
       <CenteringLayout forPage={false}>
         <div className="gap-[20px] flex flex-col py-[50px]">
-          <div className="flex flex-wrap justify-between items-center w-full">
+          <article className="flex flex-wrap justify-between items-center w-full">
             <h2 className="text-[42px] regular-text-color uppercase font-poppins font-medium">
               About Us
             </h2>
@@ -23,7 +23,7 @@ export const AboutUsScreen = () => {
                 Learn More
               </span>
             </div>
-          </div>
+          </article>
           <div className="grid gap-8 md:grid-cols-2">
             <div className="flex rounded-[14px] overflow-hidden items-center justify-center">
               <Image

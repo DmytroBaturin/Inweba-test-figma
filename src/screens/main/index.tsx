@@ -6,14 +6,14 @@ import Image from "next/image";
 
 export const MainScreen = () => {
   return (
-    <PageLayout>
+    <PageLayout tag={"main"}>
       <CenteringLayout
         forPage={false}
         className="h-dvh w-full lg:gap-0 flex-col-reverse gap-4 my-[50px] lg:flex-row justify-between
          lg:h-[520px]"
       >
         <Box className="bg-[#003366]  justify-between md:px-[80px] py-[100px] px-[20px] h-full flex flex-col w-full lg:w-[66%] rounded-[20px]">
-          <div className="flex  flex-col gap-y-4">
+          <article className="flex  flex-col gap-y-4">
             <h1 className="text-[48px] font-poppins font-semibold uppercase text-white leading-[57px]">
               Welcome to <br />
               Dickens Executive <br />
@@ -22,7 +22,7 @@ export const MainScreen = () => {
             <h3 className="text-white font-roboto text-[18px] font-normal">
               Your resource of choice for coaching education
             </h3>
-          </div>
+          </article>
           <Button
             variant={"secondary"}
             className="font-roboto w-fit px-[20px] py-[14px]"

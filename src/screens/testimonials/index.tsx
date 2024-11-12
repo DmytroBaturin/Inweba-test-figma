@@ -80,16 +80,16 @@ export const TestimonialsScreen = () => {
   };
 
   return (
-    <PageLayout>
+    <PageLayout tag={"section"}>
       <CenteringLayout
         forPage={false}
         className="flex w-full flex-col text-white gap-[20px] py-[50px] h-full"
       >
-        <div className="w-full text-black">
+        <article className="w-full text-black">
           <h2 className="font-poppins uppercase text-[#003366] font-medium text-[42px]">
             Testimonials
           </h2>
-        </div>
+        </article>
         <div className="w-full justify-center items-center flex flex-col gap-[50px]">
           <Swiper
             modules={[Pagination]}

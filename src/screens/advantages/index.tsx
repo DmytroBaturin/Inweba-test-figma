@@ -8,12 +8,15 @@ import rocket from "@/shared/assets/Rocket.svg";
 
 export const AdvantagesScreen = () => {
   return (
-    <PageLayout className=" bg-[#E0E7EF]">
+    <PageLayout tag={"section"} className=" bg-[#E0E7EF]">
       <CenteringLayout
         forPage={false}
         className="flex flex-col w-full gap-[20px] lg:h-[520px] py-[50px] h-full"
       >
-        <Box className="bg-white sm:px-[50px] px-[20px] font-medium text-[42px] text-[#003366]  rounded-[16px] h-[125px] flex items-center w-full">
+        <Box
+          tag={"article"}
+          className="bg-white sm:px-[50px] px-[20px] font-medium text-[42px] text-[#003366]  rounded-[16px] h-[125px] flex items-center w-full"
+        >
           <h2 className="uppercase sm:text-[42px] text-[32px] regular-text-color font-poppins">
             advantages
           </h2>

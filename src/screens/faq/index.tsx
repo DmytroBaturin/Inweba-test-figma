@@ -29,16 +29,16 @@ const accordionItems = [
 
 export const FAQScreen = () => {
   return (
-    <PageLayout>
+    <PageLayout tag={"section"}>
       <CenteringLayout
         forPage={false}
         className="flex w-full flex-col text-white gap-[20px] py-[50px] h-full"
       >
-        <div className="w-full text-black">
+        <article className="w-full text-black">
           <h2 className="font-poppins uppercase text-[#003366] font-medium text-[42px]">
             FAQ
           </h2>
-        </div>
+        </article>
         <div className="flex flex-col lg:flex-row justify-between w-full gap-[20px]">
           <div className="lg:w-[57%] w-full justify-between gap-6 flex flex-col">
             <Accordion items={accordionItems} />

@@ -5,7 +5,7 @@ import { Button } from "@/shared/ui/button";
 
 export const ContactUsScreen = () => {
   return (
-    <PageLayout className="bg-[#003366]">
+    <PageLayout tag={"section"} className="bg-[#003366]">
       <CenteringLayout
         forPage={false}
         className="flex-col w-full gap-[20px] lg:h-[350px] py-[50px] lg:flex-row h-full"

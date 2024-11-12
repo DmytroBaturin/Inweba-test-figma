@@ -10,14 +10,14 @@ import check from "@/shared/assets/Icon.svg";
 
 export const OurCoursesScreen = () => {
   return (
-    <PageLayout>
+    <PageLayout tag={"section"}>
       <CenteringLayout forPage={false}>
         <div className="gap-[20px] w-full flex flex-col py-[50px]">
-          <div className="flex justify-between items-center w-full">
+          <article className="flex justify-between items-center w-full">
             <h2 className="text-[42px] regular-text-color font-poppins uppercase font-medium">
               Our courses
             </h2>
-          </div>
+          </article>
           {info.map((item, i) => (
             <Box
               key={i}
