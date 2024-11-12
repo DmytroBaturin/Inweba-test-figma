@@ -21,11 +21,11 @@ export const Header = () => {
         <div className="w-full py-[16px] flex justify-between items-center">
           <Image src={logo} alt={"logo"} />
           <div className="flex gap-14 justify-between items-center">
-            <nav className="list-none font-medium font-roboto md:flex hidden items-center gap-6">
+            <nav className="list-none font-medium font-roboto md:flex hidden items-center gap-4">
               {navItems.map((item) => (
                 <li
                   key={item}
-                  className="text-[16px] flex gap-1 cursor-pointer py-[12px] px-[18px] relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[1px] after:bg-[#003366] after:w-0 after:transition-all hover:after:w-full"
+                  className="text-[16px] flex gap-1 cursor-pointer py-[10px] px-[18px] relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[1px] after:bg-[#003366] after:w-0 after:transition-all hover:after:w-full"
                   onClick={() =>
                     item === "Courses" && setIsDropdownOpen(!isDropdownOpen)
                   }
