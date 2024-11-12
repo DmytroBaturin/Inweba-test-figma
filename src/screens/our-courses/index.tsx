@@ -44,9 +44,18 @@ export const OurCoursesScreen = () => {
               <div className="flex gap-[12px]">
                 {item.labels.map((label) => (
                   <label
-                    className="py-[10px] px-[16px] bg-[#EFF3F7] rounded-[45px]"
+                    className="py-[10px] gap-2 flex px-[16px] bg-[#EFF3F7] rounded-[45px]"
                     key={label.text}
                   >
+                    {label.icon && (
+                      <Image
+                        width={24}
+                        height={24}
+                        src={label.icon}
+                        alt={"star"}
+                      />
+                    )}
+
                     <p className="text-[18px] font-medium">{label.text}</p>
                   </label>
                 ))}

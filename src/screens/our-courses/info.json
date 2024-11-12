@@ -2,15 +2,15 @@
   "title": "Level 1 (ACC Track) Experiential Executive Coaching Program",
   "labels": [
     {
-      "icon": "calendar",
+      "icon": "Clock.svg",
       "text": "60-hour"
     },
     {
-      "icon": "calendar",
+      "icon": "Computer.svg",
       "text": "Online"
     },
     {
-      "icon": "calendar",
+      "icon": "Book.svg",
       "text": "English"
     }
   ],
@@ -53,24 +53,36 @@
   }
 },
 {
-"title": "Level 1 (ACC Track) Experiential Executive Coaching Program",
-"labels": [
-{
-"icon": "calendar",
-"text": "60-hour"
-},
-{
-"icon": "calendar",
-"text": "Online"
-},
-{
-"icon": "calendar",
-"text": "English"
-}
-],
+"title": "Level 2 (PCC Track) Experiential Executive Coaching Program",
+  "labels": [
+    {
+      "icon": "Clock.svg",
+      "text": "125-hour"
+    },
+    {
+      "icon": "Computer.svg",
+      "text": "Online"
+    },
+    {
+      "icon": "Book.svg",
+      "text": "English"
+    },
+    {
+      "icon": "Modules.svg",
+      "text": "9 modules"
+    }
+  ],
 "models": {
 "description": "The Three Primary Coaching Program Models:",
 "lvl": [
+  {
+    "title": "1.The Coaching Certification Model",
+    "include": [
+      "Illustrates how coaching candidates acquire the necessary skills, tips, tools, and techniques for certification",
+      "Progresses from data intake to knowledge acquisition, understanding, and ultimately wisdom",
+      "Through practice and repetition, candidates achieve competence and transcendence in their coaching abilities"
+    ]
+  },
 {
 "title": "Level 1 (ACC Track) Experiential Executive Coaching Program",
 "include": [
@@ -79,14 +91,7 @@
 "Proficiency in navigating ICF Core Competencies"
 ]
 },
-{
-"title": "Level 1 (ACC Track) Experiential Executive Coaching Program",
-"include": [
-"Illustrates how coaching candidates acquire the necessary skills, tips, tools, and techniques for certification",
-"Progresses from data intake to knowledge acquisition, understanding, and ultimately wisdom",
-"Through practice and repetition, candidates achieve competence and transcendence in their coaching abilities"
-]
-},
+
 {
 "title": "3.The Coaching Engagement Model",
 "include": [
@@ -99,7 +104,7 @@
 },
 "price": {
 "title": "Price",
-"text": "$6 499"
+"text": "$8 499"
 },
 "button": {
 "text": "JOIN",
